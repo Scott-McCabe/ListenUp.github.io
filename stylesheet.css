@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: program, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*---------------------------------*/
+
+.nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #c1272d;
+    font-size: 2vw;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+/*------------------------------------*/
+
+.home {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100%;
+    height: 50vw;
+    width: 100vw;
+    background-image: url(img/listen-up-background.png);
+    background-size: cover;
+}
+
+.home img {
+    grid-column: 2/3;
+    grid-row: 1;
+    width: 35vw;
+    justify-self: center;
+    align-self: center;
+}
+
+/*---------------------------------------*/
+
+.about {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100%;
+    height: 30vw;
+    width: 100vw;
+}
+
+.about p {
+    grid-column: 2/3;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.redtext {
+    color: #c1272d;
+}
+
+/*-----------------------------------------*/
+
+.app {
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 10% 80%;
+    height: 50vw;
+    width: 100vw;
+}
+
+.app img {
+    width: 15vw;
+}
+
+.app h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: start;
+}
+
+.app .s-1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+
+.app .s-2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+
+.app .s-3 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+
+.app .s-4 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+
+/*------------------------------------------------*/
+
+.get{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 60vw;
+    width: 100vw;
+}
+
+.get .get-b-image{
+    grid-column: 2/3;
+    grid-row: 1/ span 4;
+    width: 25vw;
+    align-self: start;
+    justify-self: center;
+}
+
+.get .get-logo-image{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 10vw;
+    align-self: end;
+    justify-self: center;
+}
+
+.get .get-sl-text{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-size: 2vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.get .get-apple-image{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 10vw;
+    align-self: start;
+    justify-self: center;
+}
+
+.get .get-google-image{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 10vw;
+    align-self: center;
+    justify-self: center;
+}
